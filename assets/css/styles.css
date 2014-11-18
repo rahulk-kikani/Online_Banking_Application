@@ -1,0 +1,282 @@
+body
+{
+    padding: 0;
+    margin: 0 auto;
+    background: url("../images/bg1.gif") repeat;
+}
+@font-face
+{
+    font-family: 'Jura-Regular';
+    src: url("../fonts/Jura/Jura-Regular.ttf");
+}
+@font-face
+{
+    font-family: 'Jura-DemiBold';
+    src: url("../fonts/Jura/Jura-DemiBold.ttf");
+}
+@font-face
+{
+    font-family: 'Jura-Medium';
+    src: url("../fonts/Jura/Jura-Medium.ttf");
+}
+.s_msg
+{
+    color: green;
+    font-family: 'Jura-DemiBold';
+}
+.e_msg
+{
+    color: red;
+    font-family: 'Jura-DemiBold';
+}
+.clear_all
+{
+    clear: both;
+}
+.middel
+{
+    margin: 0 auto;
+    width: 1000px;
+    box-shadow: 0 0 10px #777;
+    background: white;
+}
+.middel .header_line
+{
+    border: 2px solid #970834;
+}
+.middel .header_box
+{
+    font-size: 55px;
+    font-family: Jura-Regular;
+    height: 120px;
+    background: #ffffff;
+    width: 100%;
+}
+.middel .menu_box
+{
+    margin: 0px 0 10px -10px;
+    padding: 7px 10px;
+    font-family: Jura-Regular;
+    color: white;
+    font-size: 22px;
+    width: 1000px;
+    background: #970834;
+    box-shadow: 0 0 10px #777;
+    border-radius: 5px;
+    border:  1px solid white;
+}
+.middel .content_area
+{
+    padding: 10px;
+    background: white;
+    height: auto;
+}
+.middel .footer
+{
+    padding: 10px 20px 0 20px;
+    font-family: Jura-Regular;
+    box-shadow: 0 0 10px #777;
+    background: #970834;
+    height: 30px;
+}
+
+/*Header Style*/
+
+.header_box .logo
+{
+    padding: 45px 20px;
+}
+.logo .created_by
+{
+    float: right;
+    font-size: 16px;
+    width: 480px;
+}
+/*Content Part*/
+.content_area .login_1
+{
+    padding: 40px;
+    float: left;
+    width: 400px;
+    height: auto;
+    border-right: 1px dotted #777;
+}
+.content_area .login_2
+{
+    margin-left: 2px;
+    padding: 40px 40px 60px 40px;
+    float: left;
+    width: 400px;
+    height: auto;
+    border-left: 0px dotted #777;
+}
+.content_area .reg_box
+{
+    float: left;
+    margin-left: 2px;
+    padding: 40px 40px 60px 40px;
+    width: 550px;
+    height: auto;
+    border-right: 1px dotted #777;
+}
+.content_area .note_box
+{
+    float: left;
+    margin-left: 2px;
+    padding: 40px 20px 60px 20px;
+    width: 295px;
+    height: auto;
+    border-right: 0px dotted #777;
+}
+.box_header
+{
+    width: 100%;
+    border-bottom: 1px dotted #777;
+}
+.box_title
+{
+    float: left;
+    margin: 2px 2px 2px 5px;
+    font-family: Jura-Regular;
+    font-size: 20px;
+}
+.box_content
+{
+    padding: 5px 2px 2px 2px;
+    font-family: Jura-DemiBold;
+    text-align: justify;
+}
+/*Span Common*/
+.arrow_icon
+{
+    float: left;
+    height: 20px;
+    width: 24px;
+    background-image: url("../images/arrow_20x24.png");
+    display: inline-block;
+}
+.white_arrow
+{
+    margin: -3px 0 0 5px;
+    height: 24px;
+    width: 15px;
+    background-image: url("../images/white_arrow.png");
+    display: inline-block;
+}
+.submit_button
+{
+    height: 32px;
+    border-radius: 4px;
+    border: 0px;
+    width: 102px;
+    background: url("../images/submit_btn.png") no-repeat;
+}
+.submit_button:hover
+{
+    box-shadow: 0  0 10px #000;
+    cursor: pointer;
+}
+.input-style
+{
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #970834;
+}
+.a_dotted
+{
+    color: #970834;
+    text-decoration: none;
+    border-bottom: 1px dotted #970834;
+}
+.a_white
+{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+.ef_msg p,.ef_msg
+{
+    color: red;
+    padding: 0px;
+    margin: 0px;
+}
+b
+{
+    font-weight: 600;
+    color: #970834;
+}
+
+.content_area .side_menu
+{
+    padding: 10px;
+    float: left;
+    width: 200px;
+    height: auto;
+    border-right: 1px dotted #777;
+}
+
+.content_area .content_box
+{
+    font-family: 'Jura-Regular';
+    float: left;
+    padding: 0px 0px 10px 10px;
+    width: 749px;
+}
+
+.side_menu .level1
+{
+    padding: 0px 5px 0 0px;
+    margin: 0px;
+}
+.level1 .level1_title
+{
+    font-family: Jura-Regular;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    font-weight: bold;
+    border-bottom: 1px #970834 dotted;
+}
+.level1 .level1_ul
+{
+    margin-top: 5px;
+    width: 165px;
+    padding: 0px 0px 0px 20px;
+}
+.level1 .level1_ul li
+{
+    width: 165px;
+}
+.level1_ul li a
+{
+    font-family: Jura-Regular;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    padding: 2px 0px 0px 0px;
+}
+.level1_ul li a:hover
+{
+    border-bottom: 1px dotted #970834;
+}
+
+.content_box .tag_line
+{
+    background: #dfdfdf;
+    font-family: Jura-Regular;
+    color: #970834;
+    padding: 0px;
+    margin-right: -10px;
+}
+.tag_line h2
+{
+    margin: 0px;
+    padding: 5px;
+    border-left: 2px solid #970834;
+}
+.tag_line {
+background: #dfdfdf;
+font-family: Jura-Regular;
+color: #970834;
+padding: 0px;
+margin-right: -10px;
+}
